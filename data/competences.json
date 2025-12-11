@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "nom": "HTML5",
+        "icone": "fab fa-html5",
+        "niveau": "confirmé",
+        "utilisations": 45,
+        "couleur": "#e34c26",
+        "type": "base"
+    },
+    {
+        "id": 2,
+        "nom": "CSS3",
+        "icone": "fab fa-css3-alt",
+        "niveau": "confirmé",
+        "utilisations": 42,
+        "couleur": "#264de4",
+        "type": "base"
+    },
+    {
+        "id": 3,
+        "nom": "JavaScript",
+        "icone": "fab fa-js",
+        "niveau": "confirmé",
+        "utilisations": 40,
+        "couleur": "#f7df1e",
+        "type": "base"
+    },
+    {
+        "id": 4,
+        "nom": "React",
+        "icone": "fab fa-react",
+        "niveau": "débutant",
+        "utilisations": 38,
+        "couleur": "#61dafb",
+        "type": "base"
+    },
+    {
+        "id": 5,
+        "nom": "PHP",
+        "icone": "fab fa-php",
+        "niveau": "confirmé",
+        "utilisations": 37,
+        "couleur": "#777bb4",
+        "type": "base"
+    },
+    {
+        "id": 6,
+        "nom": "MySQL",
+        "icone": "fas fa-database",
+        "niveau": "confirmé",
+        "utilisations": 36,
+        "couleur": "#4479a1",
+        "type": "base"
+    },
+    {
+        "id": 7,
+        "nom": "Node.js",
+        "icone": "fab fa-node-js",
+        "niveau": "débutant",
+        "utilisations": 35,
+        "couleur": "#339933",
+        "type": "base"
+    },
+    {
+        "id": 8,
+        "nom": "Python",
+        "icone": "fab fa-python",
+        "niveau": "débutant",
+        "utilisations": 34,
+        "couleur": "#3776ab",
+        "type": "base"
+    },
+    {
+        "id": 9,
+        "nom": "Github",
+        "icone": "fab fa-github-alt",
+        "niveau": "confirmé",
+        "utilisations": 33,
+        "couleur": "#181717",
+        "type": "base"
+    },
+    {
+        "id": 10,
+        "nom": "Figma",
+        "icone": "fab fa-figma",
+        "niveau": "confirmé",
+        "utilisations": 32,
+        "couleur": "#f24e1e",
+        "type": "base"
+    },
+    {
+        "id": 11,
+        "nom": "WordPress",
+        "icone": "fab fa-wordpress",
+        "niveau": "intermédiaire",
+        "utilisations": 31,
+        "couleur": "#21759b",
+        "type": "base"
+    },
+    {
+        "id": 12,
+        "nom": "Prestashop",
+        "icone": "fas fa-shop",
+        "niveau": "intermédiaire",
+        "utilisations": 30,
+        "couleur": "#df0067",
+        "type": "base"
+    },
+    {
+        "id": 13,
+        "nom": "Développer des plugins Minecraft avec IA",
+        "icone": "fas fa-cube",
+        "niveau": "débutant",
+        "utilisations": 25,
+        "couleur": "#4fc08d",
+        "type": "tempsLibre"
+    },
+    {
+        "id": 14,
+        "nom": "Créer un serveur Minecraft sur un VPS",
+        "icone": "fas fa-server",
+        "niveau": "débutant",
+        "utilisations": 20,
+        "couleur": "#3178c6",
+        "type": "tempsLibre"
+    }
+]

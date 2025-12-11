@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Portfolio Alain DA-ROS</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/projets.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-main">
+            <div class="dashboard-content">
+                <div class="page-header">
+                    <div class="page-header-top">
+                        <div class="page-header-actions">
+                            <button class="page-header-btn" id="filter-btn">
+                                <i class="fas fa-filter"></i>
+                                <span>Filtre</span>
+                                <span id="active-filters-count" class="filter-badge" style="display: none;">0</span>
+                            </button>
+                        </div>
+                        <h1 class="page-title">Tous les projets</h1>
+                    </div>
+                </div>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Les projets seront ajoutés ici -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de filtrage -->
+    <div id="filter-modal" class="filter-modal">
+        <div class="filter-modal-content">
+            <div class="filter-modal-header">
+                <h2><i class="fas fa-filter"></i> Filtrer les projets</h2>
+                <button class="filter-modal-close" id="filter-modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="filter-modal-body" id="filter-modal-body">
+                <div class="filter-section">
+                    <h3><i class="fas fa-code"></i> Technologies</h3>
+                    <div class="filter-options" id="filter-technologies">
+                        <!-- Les technologies seront ajoutées ici -->
+                    </div>
+                </div>
+                <div class="filter-section">
+                    <h3><i class="fas fa-calendar"></i> Année</h3>
+                    <div class="filter-options" id="filter-years">
+                        <!-- Les années seront ajoutées ici -->
+                    </div>
+                </div>
+                <div class="filter-section">
+                    <h3><i class="fas fa-users"></i> Contexte</h3>
+                    <div class="filter-options" id="filter-context">
+                        <!-- Les contextes seront ajoutés ici -->
+                    </div>
+                </div>
+            </div>
+            <div class="filter-modal-footer">
+                <button class="btn btn-secondary" id="filter-reset">Réinitialiser</button>
+                <button class="btn btn-primary" id="filter-apply">Appliquer</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Templates -->
+    <template id="project-card-template">
+        <div class="project-card">
+            <div class="project-image">
+                <img src="" alt="" />
+            </div>
+            <div class="project-info">
+                <h3></h3>
+                <p></p>
+                <div class="project-tech">
+                    <!-- Les technologies seront ajoutées ici -->
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="project-sidebar-item-template">
+        <a href="#" class="sidebar-nav-item">
+            <i class="fas fa-folder"></i>
+            <span></span>
+        </a>
+    </template>
+
+    <template id="tech-tag-template">
+        <span class="tech-tag"></span>
+    </template>
+
+    <template id="filter-checkbox-template">
+        <label class="filter-checkbox">
+            <input type="checkbox" value="" data-filter="">
+            <span></span>
+        </label>
+    </template>
+
+    <script src="js/sidebar.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/projets.js"></script>
+</body>
+</html>
+

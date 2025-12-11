@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "titre": "SAE 105 - Portfolio",
+    "description_courte": "Portfolio présentant mes projets de première année",
+    "description_longue": "Ce portfolio a été réalisé lors de ma première année de BUT MMI. Il présente mes différents projets académiques et permet de découvrir mon parcours et mes compétences. Le site a été développé avec des technologies web modernes pour offrir une expérience utilisateur fluide et responsive.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/images/SAE105.png",
+    "captures": [
+      "assets/images/SAE105.png"
+    ],
+    "lien_demo": "https://daalain.github.io/",
+    "lien_github": "https://github.com/DAAlain/SAE_105",
+    "date": "2023",
+    "contexte": "Projet académique - Première année BUT MMI",
+    "travail_en_groupe": false,
+    "objectifs": [
+      "Créer un portfolio professionnel",
+      "Présenter mes projets et compétences",
+      "Apprendre les bases du développement web"
+    ],
+    "defis": [
+      "Maîtriser HTML, CSS et JavaScript",
+      "Créer un design responsive",
+      "Optimiser les performances"
+    ]
+  },
+  {
+    "id": 2,
+    "titre": "SAE 203 - Projet ST-Gall",
+    "description_courte": "Projet représentant une feuille de calculs de Quilles ST-Gall",
+    "description_longue": "Application web permettant de gérer et calculer les scores pour les quilles ST-Gall. Le projet inclut un système de gestion des joueurs, des parties et des statistiques. Développé avec PHP et MySQL pour la partie backend, avec une interface utilisateur moderne et intuitive.",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+    "image": "assets/images/SAE203.png",
+    "captures": [
+      "assets/images/SAE203.png"
+    ],
+    "lien_demo": "https://sae203.alainda-ros.fr/",
+    "lien_github": "",
+    "date": "2023",
+    "contexte": "Projet académique - Première année BUT MMI",
+    "travail_en_groupe": false,
+    "objectifs": [
+      "Développer une application web complète",
+      "Apprendre PHP et MySQL",
+      "Créer un système de gestion de données"
+    ],
+    "defis": [
+      "Gérer la base de données",
+      "Implémenter les calculs complexes",
+      "Créer une interface utilisateur ergonomique"
+    ]
+  },
+  {
+    "id": 3,
+    "titre": "SAE 301 - Ruches connectées",
+    "description_courte": "Projet en collaboration représentant un site de logistique de ruches connectées",
+    "description_longue": "Projet collaboratif développé en équipe pour gérer la logistique de ruches connectées. Le système permet de suivre l'emplacement des ruches, leur état de santé, et de gérer les déplacements. Application web complète avec interface d'administration et tableau de bord pour les apiculteurs.",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+    "image": "assets/images/SAE301.png",
+    "captures": [
+      "assets/images/SAE301.png"
+    ],
+    "lien_demo": "https://sae301.alainda-ros.fr/",
+    "lien_github": "https://github.com/DAAlain/SAE_301",
+    "date": "2024",
+    "contexte": "Projet académique - Deuxième année BUT MMI",
+    "travail_en_groupe": true,
+    "objectifs": [
+      "Travailler en équipe sur un projet complexe",
+      "Développer une application de gestion",
+      "Intégrer des fonctionnalités de géolocalisation"
+    ],
+    "defis": [
+      "Coordination en équipe",
+      "Gestion de projet complexe",
+      "Intégration de multiples fonctionnalités"
+    ]
+  },
+  {
+    "id": 4,
+    "titre": "SAE 303 - Datavisualisation Réseaux Sociaux",
+    "description_courte": "Projet représentant une datavisualisation de données sur les réseaux sociaux",
+    "description_longue": "Application de datavisualisation interactive permettant d'analyser et de visualiser des données issues des réseaux sociaux. Le projet utilise des graphiques interactifs et des animations pour présenter les données de manière claire et engageante. Développé avec des bibliothèques JavaScript modernes pour la visualisation de données.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/images/SAE303.png",
+    "captures": [
+      "assets/images/SAE303.png"
+    ],
+    "lien_demo": "https://daalain.github.io/SAE_303/",
+    "lien_github": "https://github.com/DAAlain/SAE_303",
+    "date": "2024",
+    "contexte": "Projet académique - Deuxième année BUT MMI",
+    "travail_en_groupe": false,
+    "objectifs": [
+      "Apprendre la datavisualisation",
+      "Créer des graphiques interactifs",
+      "Analyser des données complexes"
+    ],
+    "defis": [
+      "Traitement de grandes quantités de données",
+      "Création d'interfaces interactives",
+      "Optimisation des performances"
+    ]
+  },
+  {
+    "id": 5,
+    "titre": "SAE 401 - Escape Games (Bug)",
+    "description_courte": "Projet représentant un site de présentation d'escape games",
+    "description_longue": "Site web de présentation et de réservation pour des escape games. Le projet inclut un système de réservation en ligne, une galerie d'images, et une interface de gestion pour les administrateurs. Application complète avec authentification et gestion des réservations.",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+    "image": "assets/images/SAE401.png",
+    "captures": [
+      "assets/images/SAE401.png"
+    ],
+    "lien_demo": "https://sae401.alainda-ros.fr/",
+    "lien_github": "https://github.com/DAAlain/SAE401",
+    "date": "2024",
+    "contexte": "Projet académique - Deuxième année BUT MMI",
+    "travail_en_groupe": true,
+    "objectifs": [
+      "Créer un site de réservation",
+      "Implémenter un système d'authentification",
+      "Développer une interface d'administration"
+    ],
+    "defis": [
+      "Gestion des réservations",
+      "Sécurité de l'authentification",
+      "Interface utilisateur intuitive"
+    ]
+  },
+  {
+    "id": 6,
+    "titre": "SAE 402 - Mini-Jeux Web Mobile",
+    "description_courte": "Projet représentant des mini-jeux web pour mobile",
+    "description_longue": "Collection de mini-jeux web optimisés pour mobile. Le projet comprend plusieurs jeux interactifs développés avec JavaScript vanilla, avec une attention particulière portée à l'expérience utilisateur sur mobile. Interface tactile et responsive pour une expérience de jeu optimale.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/images/SAE402.png",
+    "captures": [
+      "assets/images/SAE402.png"
+    ],
+    "lien_demo": "https://sae402.alainda-ros.fr/",
+    "lien_github": "https://github.com/DAAlain/SAE_402",
+    "date": "2024",
+    "contexte": "Projet académique - Deuxième année BUT MMI",
+    "travail_en_groupe": false,
+    "objectifs": [
+      "Développer des jeux web",
+      "Optimiser pour mobile",
+      "Créer une expérience utilisateur engageante"
+    ],
+    "defis": [
+      "Gestion des interactions tactiles",
+      "Optimisation des performances",
+      "Design responsive pour mobile"
+    ]
+  }
+]
+

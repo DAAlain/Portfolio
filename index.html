@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alain DA-ROS - Portfolio</title>
+    <link rel="stylesheet" href="css/landing.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <div class="landing-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-background">
+                <div class="gradient-overlay"></div>
+                <div class="animated-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Bonjour, je suis</span>
+                        <span class="title-name">Alain DA-ROS</span>
+                        <span class="title-role">Développeur Web</span>
+                    </h1>
+                    <p class="hero-description">
+                        Je crée des expériences web exceptionnelles avec des technologies modernes.
+                        Passionné par l'innovation et toujours en quête de nouveaux défis.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="dashboard.html" class="btn btn-primary">
+                            <span>Accéder au Dashboard</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="apropos.html" class="btn btn-secondary">
+                            <span>En savoir plus</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="window-title">portfolio.js</span>
+                            <div class="window-controls">
+                                <span class="control minimize">
+                                    <i class="fas fa-minus"></i>
+                                </span>
+                                <span class="control maximize">
+                                    <i class="fas fa-square"></i>
+                                </span>
+                                <span class="control close">
+                                    <i class="fas fa-times"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="code-window-content">
+                            <div class="code-content">
+                                <div class="code-line">
+                                    <span class="code-keyword">const</span> 
+                                    <span class="code-variable">developer</span> 
+                                    <span class="code-operator">=</span> 
+                                    <span class="code-string">'Alain DA-ROS'</span><span class="code-punctuation">;</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-keyword">const</span> 
+                                    <span class="code-variable">skills</span> 
+                                    <span class="code-operator">=</span> 
+                                    <span class="code-bracket">[</span>
+                                </div>
+                                <div class="code-line indent">
+                                    <span class="code-string">'HTML'</span><span class="code-punctuation">,</span>
+                                    <span class="code-string">'CSS'</span><span class="code-punctuation">,</span>
+                                    <span class="code-string">'JavaScript'</span><span class="code-punctuation">,</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-bracket">]</span><span class="code-punctuation">;</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-keyword">function</span> 
+                                    <span class="code-function">createAmazingProjects</span>
+                                    <span class="code-bracket">()</span> 
+                                    <span class="code-bracket">{</span>
+                                </div>
+                                <div class="code-line indent">
+                                    <span class="code-keyword">return</span> 
+                                    <span class="code-string">'Portfolio Dashboard'</span><span class="code-punctuation">;</span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-bracket">}</span>
+                                </div>
+                                <div class="code-line hidden-function">
+                                    <span class="code-keyword">function</span> 
+                                    <span class="code-function">decodePassword</span>
+                                    <span class="code-bracket">()</span> 
+                                    <span class="code-bracket">{</span>
+                                </div>
+                                <div class="code-line indent hidden-function">
+                                    <span class="code-keyword">const</span> 
+                                    <span class="code-variable">a</span> 
+                                    <span class="code-operator">=</span> 
+                                    <span class="code-variable">skills</span><span class="code-punctuation">[</span><span class="code-string">2</span><span class="code-punctuation">]</span><span class="code-punctuation">[</span><span class="code-string">6</span><span class="code-punctuation">]</span> <span class="code-operator">+</span> 
+                                    <span class="code-variable">developer</span><span class="code-punctuation">[</span><span class="code-string">2</span><span class="code-punctuation">]</span> <span class="code-operator">+</span> 
+                                    <span class="code-function">createAmazingProjects</span><span class="code-bracket">()</span><span class="code-punctuation">[</span><span class="code-string">14</span><span class="code-punctuation">]</span><span class="code-punctuation">;</span>
+                                </div>
+                                <div class="code-line indent hidden-function">
+                                    <span class="code-keyword">const</span> 
+                                    <span class="code-variable">b</span> 
+                                    <span class="code-operator">=</span> 
+                                    <span class="code-function">createAmazingProjects</span><span class="code-bracket">()</span><span class="code-punctuation">[</span><span class="code-string">14</span><span class="code-punctuation">]</span> <span class="code-operator">+</span> 
+                                    <span class="code-variable">skills</span><span class="code-punctuation">[</span><span class="code-string">2</span><span class="code-punctuation">]</span><span class="code-punctuation">[</span><span class="code-string">7</span><span class="code-punctuation">]</span><span class="code-punctuation">;</span>
+                                </div>
+                                <div class="code-line indent hidden-function">
+                                    <span class="code-keyword">const</span> 
+                                    <span class="code-variable">c</span> 
+                                    <span class="code-operator">=</span> 
+                                    <span class="code-variable">skills</span><span class="code-punctuation">[</span><span class="code-string">2</span><span class="code-punctuation">]</span><span class="code-punctuation">[</span><span class="code-string">9</span><span class="code-punctuation">]</span><span class="code-punctuation">;</span>
+                                </div>
+                                <div class="code-line indent hidden-function">
+                                    <span class="code-keyword">return</span> 
+                                    <span class="code-variable">a</span> <span class="code-operator">+</span> <span class="code-variable">b</span> <span class="code-operator">+</span> <span class="code-variable">c</span><span class="code-punctuation">;</span>
+                                </div>
+                                <div class="code-line hidden-function">
+                                    <span class="code-bracket">}</span>
+                                </div>
+                            </div>
+                            <div class="terminal-panel">
+                                <div class="terminal-header">
+                                    <span class="terminal-title">
+                                        <i class="fas fa-terminal"></i>
+                                        Terminal
+                                    </span>
+                                </div>
+                                <div class="terminal-content" id="terminal-content">
+                                    <div class="terminal-welcome">
+                                        <div class="terminal-line">
+                                            <span class="terminal-output info">Bienvenue dans le terminal interactif</span>
+                                        </div>
+                                        <div class="terminal-line">
+                                            <span class="terminal-output info">Tapez le nom d'une fonction du code pour l'exécuter</span>
+                                        </div>
+                                        <div class="terminal-line">
+                                            <span class="terminal-output info">Fonctions disponibles: developer, skills, createAmazingProjects()</span>
+                                        </div>
+                                        <div class="terminal-line">
+                                            <span class="terminal-output info">💡 Résolvez l'énigme dans le code et tapez la réponse ici</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="terminal-input-container">
+                                    <span class="terminal-prompt">$</span>
+                                    <input type="text" class="terminal-input" id="terminal-input" placeholder="Tapez une fonction..." autocomplete="off" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Découvrir</span>
+            </div>
+        </section>
+
+        <!-- Quick Stats -->
+        <section class="stats-section">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="6">0</h3>
+                        <p class="stat-label">Projets réalisés</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="2">0</h3>
+                        <p class="stat-label">Années d'expérience</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="12">0</h3>
+                        <p class="stat-label">Compétences</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" data-target="1">0</h3>
+                        <p class="stat-label">Stage effectué</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/landing.js"></script>
+</body>
+</html>
+

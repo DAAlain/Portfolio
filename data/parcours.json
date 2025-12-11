@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "titre": "Votre Futur Stagiaire",
+    "entreprise": "Chez vous",
+    "date": "9 mars 2026 - 12 juin 2026",
+    "description": "A la recherche d'un stage pour valider mon BUT MMI.",
+    "type": "experience"
+  },
+  {
+    "id": 2,
+    "titre": "Stagiaire Développeur Web",
+    "entreprise": "Destination Sport Nature, HABSHEIM",
+    "date": "28 avril 2025 - 20 juin 2025",
+    "description": "Découverte du monde professionnel. Mise en pratique des compétences acquises. Apprentissage du CMS Prestashop.",
+    "type": "experience"
+  },
+  {
+    "id": 3,
+    "titre": "BUT MMI",
+    "entreprise": "IUT, MULHOUSE",
+    "date": "2023 - 2026",
+    "description": "Acquisition des compétences dans le multimédia. Spécialisation en développement web.",
+    "type": "formation"
+  },
+  {
+    "id": 4,
+    "titre": "CPGE TPC",
+    "entreprise": "LYCÉE LAVOISIER, MULHOUSE",
+    "date": "2021-2023",
+    "description": "Classes préparatoires aux grandes écoles, spécialité Physique-Chimie",
+    "type": "formation"
+  },
+  {
+    "id": 5,
+    "titre": "BAC STL",
+    "entreprise": "LYCÉE BLAISE PASCAL, COLMAR",
+    "date": "2019-2021",
+    "description": "Baccalauréat Sciences et Technologies du Laboratoire, spécialité Sciences Physiques et Chimiques",
+    "type": "formation"
+  }
+]

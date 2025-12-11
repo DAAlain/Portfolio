@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "titre": "SAE 105 - Portfolio",
+    "description": "Portfolio présentant mes projets de première année",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/images/SAE105.png",
+    "lien_demo": "https://daalain.github.io/",
+    "lien_github": "https://github.com/DAAlain/SAE_105"
+  },
+  {
+    "id": 2,
+    "titre": "SAE 203 - Projet ST-Gall",
+    "description": "Projet représentant une feuille de calculs de Quilles ST-Gall",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+    "image": "assets/images/SAE203.png",
+    "lien_demo": "https://sae203.alainda-ros.fr/",
+    "lien_github": "https://github.com/username/taskmanager"
+  },
+  {
+    "id": 3,
+    "titre": "SAE 301 - Ruches connectées",
+    "description": "Projet en collaboration représentant un site de logistique de ruches connectées",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+    "image": "assets/images/SAE301.png",
+    "lien_demo": "https://sae301.alainda-ros.fr/",
+    "lien_github": "https://github.com/DAAlain/SAE_301"
+  },
+  {
+    "id": 4,
+    "titre": "SAE 303 - Datavisualisation Réseaux Sociaux",
+    "description": "Projet représentant une datavisualisation de données sur les réseaux sociaux",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/images/SAE303.png",
+    "lien_demo": "https://daalain.github.io/SAE_303/",
+    "lien_github": "https://github.com/DAAlain/SAE_303"
+  },
+  {
+    "id": 5,
+    "titre": "SAE 401 - Escape Games (Bug)",
+    "description": "Projet représentant un site de présentation d'escape games",
+    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+    "image": "assets/images/SAE401.png",
+    "lien_demo": "https://sae401.alainda-ros.fr/",
+    "lien_github": "https://github.com/DAAlain/SAE401"
+  },
+  {
+    "id": 6,
+    "titre": "SAE 402 - Mini-Jeux Web Mobile",
+    "description": "Projet représentant des mini-jeux web pour mobile",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "assets/images/SAE402.png",
+    "lien_demo": "https://sae402.alainda-ros.fr/",
+    "lien_github": "https://github.com/DAAlain/SAE_402"
+  }
+]
