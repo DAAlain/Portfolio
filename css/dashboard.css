@@ -1603,6 +1603,10 @@ body {
         max-width: none;
         left: 0;
         right: 0;
+        height: 100dvh; /* Utilise la hauteur dynamique qui prend en compte la barre d'adresse */
+        max-height: 100dvh; /* Limite la hauteur maximale */
+        overflow-y: auto; /* Active le scroll vertical */
+        overflow-x: hidden; /* Empêche le scroll horizontal */
     }
     
     .sidebar-open .dashboard-sidebar {
