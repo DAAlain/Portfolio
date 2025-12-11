@@ -233,7 +233,7 @@ body {
     right: 0;
     bottom: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh; /* Utilise la hauteur dynamique pour mieux gérer la barre d'adresse */
     border-radius: 0;
     z-index: 10000;
     max-width: none;
@@ -282,7 +282,7 @@ body {
 
 .code-window.maximized .code-window-content {
     flex-direction: row;
-    height: calc(100vh - 60px);
+    height: calc(100dvh - 60px); /* Utilise la hauteur dynamique */
     animation: fadeInContent 0.5s ease-out 0.2s both;
 }
 
@@ -836,6 +836,50 @@ body {
     
     .stat-label {
         font-size: 0.875rem;
+    }
+    
+    /* Fenêtre de code maximisée sur mobile */
+    .code-window.maximized {
+        height: 100dvh; /* Utilise la hauteur dynamique qui prend en compte la barre d'adresse */
+        width: 100vw;
+    }
+    
+    .code-window.maximized .code-window-content {
+        flex-direction: column; /* Empile verticalement sur mobile */
+        height: calc(100dvh - 60px); /* Prend en compte la hauteur du header */
+        overflow-y: auto; /* Active le scroll si nécessaire */
+    }
+    
+    .code-window.maximized .code-content {
+        flex: 1;
+        overflow-y: auto; /* Active le scroll pour le code */
+        font-size: 0.875rem; /* Réduit la taille de police sur mobile */
+        padding: 1.5rem; /* Réduit le padding */
+        border-right: none; /* Supprime la bordure droite */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Ajoute une bordure en bas */
+        min-height: auto;
+        max-height: 50vh; /* Limite la hauteur du code à 50% de la vue */
+    }
+    
+    .code-window.maximized .terminal-panel {
+        width: 100%; /* Prend toute la largeur sur mobile */
+        max-height: 50vh; /* Limite la hauteur du terminal à 50% de la vue */
+        overflow-y: auto; /* Active le scroll pour le terminal */
+        border-left: none; /* Supprime la bordure gauche */
+        border-top: 1px solid rgba(255, 255, 255, 0.1); /* Ajoute une bordure en haut */
+    }
+    
+    .terminal-content {
+        font-size: 0.75rem; /* Réduit la taille de police du terminal */
+        padding: 1rem; /* Réduit le padding */
+    }
+    
+    .terminal-input-container {
+        padding: 0.75rem 1rem; /* Réduit le padding */
+    }
+    
+    .terminal-input {
+        font-size: 0.75rem; /* Réduit la taille de police de l'input */
     }
 }
 
