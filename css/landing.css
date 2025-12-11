@@ -881,5 +881,23 @@ body {
     .terminal-input {
         font-size: 0.75rem; /* Réduit la taille de police de l'input */
     }
+
+    /* Positionner l'easter egg sous le code sur mobile */
+    .code-window.maximized .code-art {
+        position: static;
+        transform: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem 0;
+        margin-top: 0.75rem;
+    }
+
+    .code-art-content,
+    .code-art-text {
+        text-align: center;
+    }
 }
 
