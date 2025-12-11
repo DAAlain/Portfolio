@@ -85,7 +85,7 @@ function populateProjectsGrid() {
         
         card.innerHTML = `
             <div class="project-image">
-                <img src="${project.image}" alt="${project.titre}" />
+                <img src="${project.image}" alt="${project.titre}" loading="lazy" />
             </div>
             <div class="project-info">
                 <h3>${project.titre}</h3>

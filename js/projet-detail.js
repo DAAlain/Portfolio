@@ -145,7 +145,7 @@ function createProjectSections(project) {
                 <div class="project-detail-captures">
                     ${project.captures.map(capture => `
                         <div class="project-detail-capture">
-                            <img src="${capture}" alt="${project.titre}" />
+                            <img src="${capture}" alt="${project.titre}" loading="lazy" />
                         </div>
                     `).join('')}
                 </div>
