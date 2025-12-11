@@ -5,9 +5,9 @@
     "description_courte": "Portfolio présentant mes projets de première année",
     "description_longue": "Ce portfolio a été réalisé lors de ma première année de BUT MMI. Il présente mes différents projets académiques et permet de découvrir mon parcours et mes compétences. Le site a été développé avec des technologies web modernes pour offrir une expérience utilisateur fluide et responsive.",
     "technologies": ["HTML", "CSS", "JavaScript"],
-    "image": "assets/images/SAE105.png",
+    "image": "assets/images/SAE105.webp",
     "captures": [
-      "assets/images/SAE105.png"
+      "assets/images/SAE105.webp"
     ],
     "lien_demo": "https://daalain.github.io/",
     "lien_github": "https://github.com/DAAlain/SAE_105",
@@ -31,9 +31,9 @@
     "description_courte": "Projet représentant une feuille de calculs de Quilles ST-Gall",
     "description_longue": "Application web permettant de gérer et calculer les scores pour les quilles ST-Gall. Le projet inclut un système de gestion des joueurs, des parties et des statistiques. Développé avec PHP et MySQL pour la partie backend, avec une interface utilisateur moderne et intuitive.",
     "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
-    "image": "assets/images/SAE203.png",
+    "image": "assets/images/SAE203.webp",
     "captures": [
-      "assets/images/SAE203.png"
+      "assets/images/SAE203.webp"
     ],
     "lien_demo": "https://sae203.alainda-ros.fr/",
     "lien_github": "",
@@ -57,9 +57,9 @@
     "description_courte": "Projet en collaboration représentant un site de logistique de ruches connectées",
     "description_longue": "Projet collaboratif développé en équipe pour gérer la logistique de ruches connectées. Le système permet de suivre l'emplacement des ruches, leur état de santé, et de gérer les déplacements. Application web complète avec interface d'administration et tableau de bord pour les apiculteurs.",
     "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
-    "image": "assets/images/SAE301.png",
+    "image": "assets/images/SAE301.webp",
     "captures": [
-      "assets/images/SAE301.png"
+      "assets/images/SAE301.webp"
     ],
     "lien_demo": "https://sae301.alainda-ros.fr/",
     "lien_github": "https://github.com/DAAlain/SAE_301",
@@ -83,9 +83,9 @@
     "description_courte": "Projet représentant une datavisualisation de données sur les réseaux sociaux",
     "description_longue": "Application de datavisualisation interactive permettant d'analyser et de visualiser des données issues des réseaux sociaux. Le projet utilise des graphiques interactifs et des animations pour présenter les données de manière claire et engageante. Développé avec des bibliothèques JavaScript modernes pour la visualisation de données.",
     "technologies": ["HTML", "CSS", "JavaScript"],
-    "image": "assets/images/SAE303.png",
+    "image": "assets/images/SAE303.webp",
     "captures": [
-      "assets/images/SAE303.png"
+      "assets/images/SAE303.webp"
     ],
     "lien_demo": "https://daalain.github.io/SAE_303/",
     "lien_github": "https://github.com/DAAlain/SAE_303",
@@ -109,9 +109,9 @@
     "description_courte": "Projet représentant un site de présentation d'escape games",
     "description_longue": "Site web de présentation et de réservation pour des escape games. Le projet inclut un système de réservation en ligne, une galerie d'images, et une interface de gestion pour les administrateurs. Application complète avec authentification et gestion des réservations.",
     "technologies": ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
-    "image": "assets/images/SAE401.png",
+    "image": "assets/images/SAE401.webp",
     "captures": [
-      "assets/images/SAE401.png"
+      "assets/images/SAE401.webp"
     ],
     "lien_demo": "https://sae401.alainda-ros.fr/",
     "lien_github": "https://github.com/DAAlain/SAE401",
@@ -135,9 +135,9 @@
     "description_courte": "Projet représentant des mini-jeux web pour mobile",
     "description_longue": "Collection de mini-jeux web optimisés pour mobile. Le projet comprend plusieurs jeux interactifs développés avec JavaScript vanilla, avec une attention particulière portée à l'expérience utilisateur sur mobile. Interface tactile et responsive pour une expérience de jeu optimale.",
     "technologies": ["HTML", "CSS", "JavaScript"],
-    "image": "assets/images/SAE402.png",
+    "image": "assets/images/SAE402.webp",
     "captures": [
-      "assets/images/SAE402.png"
+      "assets/images/SAE402.webp"
     ],
     "lien_demo": "https://sae402.alainda-ros.fr/",
     "lien_github": "https://github.com/DAAlain/SAE_402",
